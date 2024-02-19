@@ -1,0 +1,11 @@
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/bin/Debug/BankTests.dll
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/bin/Debug/BankTests.pdb
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/bin/Debug/Bank.exe
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/bin/Debug/nunit.framework.dll
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/bin/Debug/Bank.pdb
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/bin/Debug/nunit.framework.xml
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/obj/Debug/BankTests.csproj.AssemblyReference.cache
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/obj/Debug/BankTests.csproj.CoreCompileInputs.cache
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/obj/Debug/BankTests.csproj.CopyComplete
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/obj/Debug/BankTests.dll
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/BankTests/obj/Debug/BankTests.pdb

@@ -1,0 +1,6 @@
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/Bank/bin/Debug/Bank.exe
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/Bank/bin/Debug/Bank.pdb
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/Bank/obj/Debug/Bank.csproj.AssemblyReference.cache
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/Bank/obj/Debug/Bank.csproj.CoreCompileInputs.cache
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/Bank/obj/Debug/Bank.exe
+/home/victorcarvalho/Documents/Github/PonderadaM9S3/Unit-Test/Bank/Bank/obj/Debug/Bank.pdb
