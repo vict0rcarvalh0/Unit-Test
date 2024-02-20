@@ -7,6 +7,8 @@
 ## Relatório
 Inicialmente foi criado um projeto de tipo Console Application com o código inicial do artigo, que se refere a classe `BankAccount`. Em seguida, seguindo as instruções foi criado o projeto de teste de unidade, que precisou ser criado em NUnit devido a incompatibilidade da IDE com o MSTest, e a classe de testes foi nomeada como `BankTests`. O código base para os testes precisou ser alterado, já que no NUnit Framework as declarações são um pouco diferentes, de forma a qual o `[TestClass]` e o `[TestMethod]` foram respectivamente substituídos por `[TestFixture]` e `[Test]`. 
 
+<img src="https://github.com/vict0rcarvalh0/Unit-Test/blob/main/assets/image1.png">
+
 ### 1. Criação do primeiro método de teste
 O primeiro método de teste foi criado com o propósito de verificar que um valor válido, ou seja, um que seja menor que o saldo e maior que zero, retira a quantidade correta da conta de acordo com o método `Debit` da classe `BankAccount`.
 ```csharp
@@ -31,6 +33,7 @@ public void Debit_WithValidAmount_UpdatesBalance()
 Nesse método, o AssertAreEqual é utilizado para verificar se o saldo final é o esperado.
 
 Resultado:
+<img src="https://github.com/vict0rcarvalh0/Unit-Test/blob/main/assets/image2.png">
 
 Propositalmente o tutorial deixa um trecho de código errado no método `Debit` da classe `BankAccount`, que foi do valor do saque que foi adicionado ao saldo ao invés de ser subtraído, já que o propósito é debitar da conta. Diante dos parâmetros passados de 11,99 de saldo inicial e 4,55 de débito, deveria resultar em 7,44. No entanto, o resultado foi de 16,54. 
 
@@ -38,6 +41,7 @@ Propositalmente o tutorial deixa um trecho de código errado no método `Debit` 
 O método `Debit` foi corrigido por meio da alteração de `m_balance += amount;` para `m_balance -= amount;`.
 
 Resultado:
+<img src="https://github.com/vict0rcarvalh0/Unit-Test/blob/main/assets/image3.png">
 
 ### 3. Criação de novos métodos de teste
 Nessa etapa, foi criado um novo método de teste com propósito de verificar o comportamento correto quando o valor do débito é menor que 0. Onde é declarado um saldo inicial positivo e uma quantidade de débito negativa.
@@ -74,6 +78,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 ```
 
 Resultados:
+<img src="https://github.com/vict0rcarvalh0/Unit-Test/blob/main/assets/image4.png">
 Ambos os testes passam
 
 ### Refatorando os métodos de teste
